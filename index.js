@@ -29,54 +29,6 @@ message.reply('**بـروڤـویس کـەسـەکـەم بـو ئـەوەێ ب�
 
 });
 
-client.on("message", msg => {
-  if (msg.content === "") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
-client.on("message", msg => {
-  if (msg.content === "") {
-    msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
-    );
-  }
-});
-
 client.on("message" , message => {
 
 if(message.channel.type === 'dm') {
@@ -104,6 +56,6 @@ client.user.setGame(`@help | Lala Music✨`)
 
 
 
-client.login("ODQxNzg4NjQ3MDE0NTMxMDcz.YJr2xQ.8gVtGNDY_Q6FbrqFCgAodRhSs9g");// تـۆکیـن بـوت 
+client.login("");// تـۆکیـن بـوت 
 
 ///Code By MrTiGER///
