@@ -104,6 +104,6 @@ client.user.setGame(`@help | Lala Music✨`)
 
 
 
-client.login("");// تـۆکیـن بـوت 
+client.login("ODQxNzg4NjQ3MDE0NTMxMDcz.YJr2xQ.8gVtGNDY_Q6FbrqFCgAodRhSs9g");// تـۆکیـن بـوت 
 
 ///Code By MrTiGER///
