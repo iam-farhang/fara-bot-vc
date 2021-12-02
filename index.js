@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === '+wara') { 
+if (message.content === '@wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -30,7 +30,7 @@ message.reply('**بـروڤـویس کـەسـەکـەم بـو ئـەوەێ ب�
 });
 
 client.on("message", msg => {
-  if (msg.content === "REKLAM") {
+  if (msg.content === "") {
     msg.reply(
       "بـــنـــێــرە بــۆ مـــن گــــیـــان"
     );
@@ -38,7 +38,7 @@ client.on("message", msg => {
 });
 
 client.on("message", msg => {
-  if (msg.content === "reklam") {
+  if (msg.content === "") {
     msg.reply(
       "بـــنـــێــرە بــۆ مـــن گــــیـــان"
     );
@@ -46,7 +46,7 @@ client.on("message", msg => {
 });
 
 client.on("message", msg => {
-  if (msg.content === "ریکلام") {
+  if (msg.content === "") {
     msg.reply(
       "بـــنـــێــرە بــۆ مـــن گــــیـــان"
     );
@@ -54,7 +54,7 @@ client.on("message", msg => {
 });
 
 client.on("message", msg => {
-  if (msg.content === "سڵاو ریکلام") {
+  if (msg.content === "") {
     msg.reply(
       "بـــنـــێــرە بــۆ مـــن گــــیـــان"
     );
@@ -62,7 +62,7 @@ client.on("message", msg => {
 });
 
 client.on("message", msg => {
-  if (msg.content === "سڵاو ڕیکلام") {
+  if (msg.content === "") {
     msg.reply(
       "بـــنـــێــرە بــۆ مـــن گــــیـــان"
     );
@@ -70,7 +70,7 @@ client.on("message", msg => {
 });
 
 client.on("message", msg => {
-  if (msg.content === "ڕیکلام") {
+  if (msg.content === "") {
     msg.reply(
       "بـــنـــێــرە بــۆ مـــن گــــیـــان"
     );
@@ -81,11 +81,11 @@ client.on("message" , message => {
 
 if(message.channel.type === 'dm') {
 
-if (message.content.startsWith("https://discord.gg/")) {
+if (message.content.startsWith("")) {
     
-  message.author.send(` مـن دام نـا بـەس تـوش دایـنـەێ  https://discord.gg/EXCuvNd`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` مـن دام نـا بـەس تـوش دایـنـەێ  `) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("755636700482633791").send(
+  client.channels.get("").send(
 `> ئـەم گـوڵـە ڕیکـلامەکـەێ کـرد: <@${message.author.id}>
 ${message.content}`)
 }
@@ -98,7 +98,7 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`ریکلام بـۆ مـن بـنیـرن`) 
+client.user.setGame(`@help | Lala Music✨`) 
 });
 
 
