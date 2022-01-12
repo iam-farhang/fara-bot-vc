@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === '@wara') { 
+if (message.content === ')wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -56,6 +56,6 @@ client.user.setGame(`@help | Lala Music✨`)
 
 
 
-client.login("ODQxNzg4NjQ3MDE0NTMxMDcz.YJr2xQ.8gVtGNDY_Q6FbrqFCgAodRhSs9g");// تـۆکیـن بـوت 
+client.login("");// تـۆکیـن بـوت 
 
 ///Code By MrTiGER///
